@@ -1,0 +1,14 @@
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+	<a class="btn btn-primary navbar-btn" href="#/">
+	<span class="fui-arrow-left"></span> Home</a>
+</nav>
+<div class="row">
+	<div class="col-md-12">
+		<h2>Days</h2>
+		<ul>
+			<li ng-repeat="day in days | orderBy:id">
+				<a href="#/day/{{ day.id }}">{{ day.name }}</a>
+			</li>
+		</ul>
+	</div>
+</div>

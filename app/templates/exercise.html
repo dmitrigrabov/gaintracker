@@ -1,0 +1,33 @@
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+	<a class="btn btn-primary navbar-btn" href="#/day-list">
+	<span class="fui-arrow-left"></span> Exercises</a>
+</nav>
+<div class="row">
+	<div class="col-md-12">
+		<h2>Exercise {{ exerciseId }}</h2>
+		<ul>
+			<li>
+				<div>Set 1</div>
+				
+				<div class="input-wrapper">
+					<label for="input-reps" class="input-label">Reps</label>
+					<span ng-if="target-reps">
+						Target: 8
+					</span>
+					<input type="number" id="input-reps" class="form-control" name="reps">
+				</div>
+
+				<div class="input-wrapper">
+					<label for="input-load" class="input-label">Load</label>
+					<span ng-if="target-load">
+						Target: 8
+					</span>
+					<input type="number" id="input-load" class="form-control" name="load">
+				</div>
+			</li>
+			<li>
+				<button class="btn btn-default pull-right">Add set</button>
+			</li>
+		</ul>
+	</div>
+</div>

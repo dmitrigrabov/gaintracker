@@ -1,0 +1,82 @@
+[
+	{
+		"id"	: 1,
+		"dayId"	: 1,
+		"name"	: "Dumbell Benchpress"
+	},
+	{
+		"id"	: 2,
+		"dayId"	: 1,
+		"name"	: "Inclined Dumbell Benchpress"
+	},
+	{
+		"id"	: 3,
+		"dayId"	: 1,
+		"name"	: "Flies"
+	},
+	{
+		"id"	: 4,
+		"dayId"	: 1,
+		"name"	: "Seated Dumbell Shoulderpress"
+	},
+	{
+		"id"	: 5,
+		"dayId"	: 1,
+		"name"	: "Standing Barbell Shoulderpress"
+	},
+	{
+		"id"	: 6,
+		"dayId"	: 1,
+		"name"	: "Lateral Flies"
+	},
+	{
+		"id"	: 7,
+		"dayId"	: 2,
+		"name"	: "Deadlift"
+	},
+	{
+		"id"	: 8,
+		"dayId"	: 2,
+		"name"	: "Back Squat"
+	},
+	{
+		"id"	: 9,
+		"dayId"	: 2,
+		"name"	: "Front Squat"
+	},
+	{
+		"id"	: 10,
+		"dayId"	: 3,
+		"name"	: "Dips"
+	},
+	{
+		"id"	: 11,
+		"dayId"	: 3,
+		"name"	: "Triceps Pulldown"
+	},
+	{
+		"id"	: 12,
+		"dayId"	: 3,
+		"name"	: "Triceps Rope Pulldown"
+	},
+	{
+		"id"	: 13,
+		"dayId"	: 3,
+		"name"	: "Chinups"
+	},
+	{
+		"id"	: 14,
+		"dayId"	: 3,
+		"name"	: "Seated Inclined Biceps Curls"
+	},
+	{
+		"id"	: 15,
+		"dayId"	: 3,
+		"name"	: "Preacher Curls"
+	},
+	{
+		"id"	: 16,
+		"dayId"	: 3,
+		"name"	: "21s"
+	}
+]

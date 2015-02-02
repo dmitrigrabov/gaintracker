@@ -1,0 +1,31 @@
+body {
+	padding-top: 70px;
+}
+
+.navbar-btn{
+	margin-left: 10px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.input-label {
+	position	: relative;
+	clear		: both;
+	display		: block;
+}
+
+.input-wrapper {
+	width: 50%;
+	float: left;
+}
+
+.input-wrapper input{
+	width		: 68px;
+	font-size	: 32px; 
+}

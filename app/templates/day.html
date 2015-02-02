@@ -1,0 +1,14 @@
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+	<a class="btn btn-primary navbar-btn" href="#/day-list">
+	<span class="fui-arrow-left"></span> Days</a>
+</nav>
+<div class="row">
+	<div class="col-md-12">
+		<h2>Exercises </h2>
+		<ul>
+			<li ng-repeat="exercise in exercises | filter:{dayId:dayId} | orderBy:id">
+				<a href="#/exercise/{{ exercise.id }}">{{ exercise.name }}</a>
+			</li>
+		</ul>
+	</div>
+</div>

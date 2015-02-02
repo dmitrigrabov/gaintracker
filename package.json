@@ -1,0 +1,28 @@
+{
+	"name": "gaintracker",
+	"version": "0.0.1",
+	"description": "gym performance tracker",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"hbs"		: "2.5.0",
+		"express"	: "4.10.7"
+	},
+	"devDependencies": {
+		"karma"					: "^0.12.16",
+		"karma-chrome-launcher"	: "^0.1.4",
+		"karma-jasmine"			: "^0.1.5",
+		"shelljs"				: "^0.2.6"
+	},
+	"scripts": {
+		"postinstall"	: "bower install",
+		"pretest"		: "npm install",
+		"test"			: "node node_modules/karma/bin/karma start test/karma.conf.js",
+		"preprotractor"	: "npm run update-webdriver",
+		"protractor"	: "protractor test/protractor.conf.js"
+	}
+}
